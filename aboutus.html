@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Bohemians </title>
+    <link href="HomeStyle.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://kit.fontawesome.com/9168255829.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="java.js"></script>
+</head>
+<body>
+    <header>
+<!--Headernote-->
+<section id="HeaderNote">
+         <div class="head">
+		<div class="icon">
+			<div class="iconnetwork">
+				<a href="https://www.facebook.com/"><img src="image/fb.png"></a>
+				<a href="https://twitter.com/"><img src="image/tw.png"></a>
+				<a href="https://www.instagram.com/"><img src="image/insta.png"></a>
+			</div>
+
+			<div class="headword">
+				<b> Freeship for order over 200CAD</b>
+			</div>
+
+		</div>
+    </div>
+</section>
+    <!------NavigationBar--->
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Droping navigation bar-->
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="information.html">Information page</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="login.html">Login</a>
+                    <a href="feedback.html">Feedback</a>
+            </div>
+        </div>
+        <!--Home Login search content-->
+        <div class="link ml-auto">
+             <a class="top" href="home.html">Home</a>
+             <a class="top" href="login.html">Login</a>
+             <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        </nav>
+ </section>
+</header>
+    <!------INFORMATION ABOUT US--->
+    <div id="Description ml-auto">
+        <img id="headerimg" src="image/ABOUTUSHEADER.png" />
+        <!--aboutus Heading-->
+    </div>
+
+    <h3 class="msliding"><b>What We Are Proud Of</b></h3>
+
+    <div class="slidingimage ">
+        <img class="mySlides" src="image/MadeInCanada.png" style="width:1000px; height:300px; margin-left:220px">
+        <img class="mySlides" src="image/tshirt.jpg" style="width:1000px; height:300px; margin-left:220px">
+        <img class="mySlides" src="image/prototype1.jpg" style="width:1000px; height:300px; margin-left:220px">
+        <img class="mySlides" src="image/covertry.jpg" style="width:1000px; height:300px; margin-left:220px">
+
+
+
+        <button class="w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <script>var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+
+
+    <div id="message">
+        <p class="font">
+
+            <img src="image/bohemians1.jpg" width="700px" height="200px" alt="Picture of Logo"
+                 style="float:right; margin-right:50px; margin-bottom:5px;" />
+
+        <p>
+            <h1 class="font_title"><b>KEEPING THINGS SIMPLE</b></h1>
+            Progreessive Silhouettes And Wardrobe Stables Sold At A Fair Price.<br /> Garenteed Nothing Can Beat It.
+            <h1 class="font_title"><br /><b>PROGRESSIVE DESIGN</b></h1>
+            Our team of industry veterans is constantly designing new silhouettes <br /> and
+            experimenting with fabrics in our downtown Toronto studio <br /> to stay on the forefront of fashion. Style is always evolving.<br />
+            <h2 class="lastmessage"><br /><b>SO ARE WE.</b></h2>
+        </p>
+
+    </div>
+
+
+    <div class="hvrbox">
+        <a class="center">
+            <img id="profilepic_1" class="hvrbox-layer_bottom" src="image/SnapSeed.jpg">
+            <h1 id="Alex_heading"></h1>
+            <p id="Alex_Bio">
+                Hi Bohemian Team!,<br />
+                My name is Alex La currently I am the Head Website Creative Designer at Bohemians. I have been in this position for 3 years, and love creating content for our loyal customers. Our Mission is to bring a more intuitive and pleasant to the eye experience to our followers. As we are known to be the greatest clothing brand known to Humber College.
+            </p>
+
+            <section id="Alex_section">
+                <div class="Alex_Description">
+                    <div class="Alex_hvrbox-text">Alex La: Creative Web Designer</div>
+                </div>
+            </section>
+        </a>
+    </div>
+
+    <div class="hvrbox">
+        <a class="center">
+            <img id="profilepic_2" class="hvrbox-layer_bottom" src="image/Hai.jpg">
+            <p id="Hai_Bio">
+                Hi Bohemian Team!, <br />
+                My name is Hai I am Bohemian Chief Financial Officer. I am responsible for controlling the stream of income. I have been in this position for 5 years. My experience working at Bohemian has been exquisite, I love my co workers and the clothing.
+            </p>
+
+            <section id="Hai_section">
+                <div class="Hai_Description">
+                    <div class="Hai_hvrbox-text">Hai: Chief Financial Officer </div>
+                </div>
+            </section>
+        </a>
+    </div>
+
+    <div class="hvrbox">
+        <a class="center">
+            <img id="profilepic_3" class="hvrbox-layer_bottom" src="image/tan.jpg">
+            <p id="Tan_Bio">
+                My name is Tan Hoang.  <br />
+                I am a student at Humber College with a major in computer engineering technology. I am a creative person with good computational ability, and I really like playing sports and listening to ballad songs with light tunes. Moreover, I took programming courses and had experience writing computer languages ​​such as C, Java.  Besides, I also have front-end knowledge such as html, html5, css, javascript and data base.
+            </p>
+            <section id="Tan_section">
+                <div class="Tan_Description">
+                    <div class="Tan_hvrbox-text">Tan Hoang: Computer Engineer at Bohemian</div>
+                </div>
+            </section>
+        </a>
+    </div>
+
+    <div class="hvrbox">
+        <a class="center">
+            <img id="profilepic_4" class="hvrbox-layer_bottom" src="image/Duc.jpg">
+            <p id="Duc_Bio">
+                Hi Bohemian Team!,<br />
+                My name is Duc I am the CEO and Founder Of Bohemians. I was inspired by the great Alexander Wang and Rick Owens to be a fashion designer from a very young age. The clothes I design are infused with oriental style and western design trends.
+            </p>
+            <section id="Duc_section">
+                <div class="Duc_Description">
+                    <div class="Duc_hvrbox-text">Duc: CEO & CO FOUNDER at Bohemian</div>
+                </div>
+            </section>
+        </a>
+    </div>
+
+
+
+    <!----------Footer-------------------->
+    <section>
+        <footer>
+            <div class="footer">
+                <div class="iconnetwork_footer">
+                    <a href="https://www.facebook.com/"><img src="image/fb.png"></a>
+                    <a href="https://twitter.com/"><img src="image/tw.png"></a>
+                    <a href="https://www.instagram.com/"><img src="image/insta.png"></a>
+                    <p>COPYRIGHT © 2020 BOHEMIAN</p>
+                    <p>Website Legally Owned by N01313354, N01293036, N01293371, N01303403 </p>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
